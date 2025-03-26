@@ -62,24 +62,37 @@ In order to run this project, you will need
 
 ## 5. Files Descriptions <a name="File Descriptions"></a>
 Here is an overview of the provided files: 
+
 - Workspace_NoteBooks
+
 | - ETL Pipeline Preparation.ipynb #loads, cleans and stores the data into a database
+
 | - ML Pipeline Preparation.ipynb # loads data, sets parameters X, y and categories, tokenizes the messages, creates & evalutates the model & saves to a pickle file
 
 - app
+
 | - template
+
 | |- master.html  # main page of web app
+
 | |- go.html  # classification result page of web app
+
 |- run.py  # Flask file that runs app
 
 - data
+
 |- disaster_categories.csv  # data to process 
+
 |- disaster_messages.csv  # data to process
+
 |- process_data.py
+
 |- DisasterResponseProject.db   # database to save clean data to
 
 - models
+
 |- train_classifier.py 
+
 |- ones you run train_classifier, you will create a classifier.pkl file with a saved model
 
 - README.md
